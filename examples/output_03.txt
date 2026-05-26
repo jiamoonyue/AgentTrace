@@ -1,0 +1,18 @@
+D:\miniconda3\Lib\site-packages\requests\__init__.py:109: RequestsDependencyWarning: urllib3 (1.26.20) or chardet (7.4.3)/charset_normalizer (3.3.2) doesn't match a supported version!
+  warnings.warn(
+============================================================
+AgentTrace: 鑷�鍔ㄨ�℃椂 楠岃瘉
+============================================================
+鍐崇瓥璺�寰�: R鈫扐鈫扥鈫扙鈫扲鈫扐鈫扥鈫扙
+宸ュ叿璋冪敤: db_query, external_api
+
+  [2] db_query
+        鑰楁椂: 31ms (鑷�鍔ㄨ�板綍)
+        鐘舵��: 鎴愬姛
+        缁撴灉: [{'name': '鐗规柉鎷�', 'price': 278.9}]
+
+  [6] external_api
+        鑰楁椂: 20ms (鑷�鍔ㄨ�板綍)
+        鐘舵��: 澶辫触
+        閿欒��: ConnectionError: 鏃犳硶杩炴帴鍒� https://api.example.com/v2/price
+

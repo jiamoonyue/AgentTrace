@@ -1,0 +1,29 @@
+[1] 启动 Engine...
+  Engine 就绪 (等待 1s)
+[2] 采集并上传 3 条 Trace...
+  上传 3 条 OK
+
+[3] 测试: 列出全部
+  total=3, items=3
+
+[4] 测试: 筛选 agent_name=weather_bot
+  total=1, 第一条=weather_bot
+
+[5] 测试: 筛选 model=deepseek-chat
+  total=2 (weather_bot + research_bot)
+
+[6] 测试: 分页 limit=2, offset=0
+  total=3, 本页=2
+
+[7] 测试: 全局统计
+  总 Trace: 3
+  Agent 分布: {'weather_bot': 1, 'research_bot': 1, 'math_bot': 1}
+  模型分布: {'deepseek-chat': 2, 'claude-sonnet-4-6': 1}
+  热门工具: [{'tool': 'weather_api', 'count': 1}, {'tool': 'web_search', 'count': 1}, {'tool': 'calculator', 'count': 1}]
+  平均 Token: 0.0
+Traceback (most recent call last):
+  File "D:\agenttrace\examples\05_query_and_stats.py", line 143, in <module>
+    main()
+  File "D:\agenttrace\examples\05_query_and_stats.py", line 135, in main
+    print("\n\u2713 全部测试通过!")
+UnicodeEncodeError: 'gbk' codec can't encode character '\u2713' in position 2: illegal multibyte sequence

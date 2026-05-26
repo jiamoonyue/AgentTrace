@@ -1,0 +1,17 @@
+D:\miniconda3\Lib\site-packages\requests\__init__.py:109: RequestsDependencyWarning: urllib3 (1.26.20) or chardet (7.4.3)/charset_normalizer (3.3.2) doesn't match a supported version!
+  warnings.warn(
+[1/4] 鍚�鍔� Engine 鏈嶅姟...
+[2/4] 鎵ц�� Agent 骞堕噰闆� Trace...
+  鈫� Trace ID: trace_1977d870ad36
+  鈫� Steps: 6
+  鈫� 鍐崇瓥璺�寰�: R鈫扐鈫扥鈫扲鈫扐鈫扥
+[3/4] 涓婁紶 Trace 鍒� Engine...
+  鈫� 鐘舵��: 201
+  鈫� 鍝嶅簲: {'status': 'ok', 'trace_id': 'trace_1977d870ad36'}
+[4/4] 浠� Engine 鏌ヨ�� Trace...
+  鈫� 鏌ュ洖 Steps: 6
+  鈫� 鏌ュ洖宸ュ叿: ['web_search', 'summarizer']
+
+  Engine 涓�鎬诲叡 1 鏉� Trace
+
+鉁� 绔�鍒扮��楠岃瘉閫氳繃!
